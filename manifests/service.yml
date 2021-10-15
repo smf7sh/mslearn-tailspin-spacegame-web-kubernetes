@@ -3,7 +3,6 @@ kind: Service
 metadata:
     name: leaderboard
 spec:
-    progressDeadlineSeconds: 3600
     type: LoadBalancer
     ports:
     - port: 80 
@@ -15,7 +14,6 @@ kind: Service
 metadata:
     name: web
 spec:
-    progressDeadlineSeconds: 3600
     type: LoadBalancer
     ports:
     - port: 80 
